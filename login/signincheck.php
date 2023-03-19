@@ -29,11 +29,6 @@ if ($mysqli->connect_errno) {
     if ($itlab) {
         
         if ($_POST["psd"]===$itlab["password"]) {
-            session_start();
-            
-            session_regenerate_id();
-            
-            $_SESSION["user_id"] = $itlab["id"];
             
             header("Location:store.html");
             exit;
