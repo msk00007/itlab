@@ -1,0 +1,99 @@
+<body>
+
+    <script type="text/javascript" src="regvalidation.js"> </script>
+    
+    <form name="f1" onsubmit="return frmvalidation()"> <center>
+    
+    <table>
+    
+    <caption><br><h3> Registration Form<br></h3><br></caption> <tr>
+    
+    <td>Name:</td>
+    
+    <td><input type="text" name="name"><br></td> </tr>
+    
+    <tr>
+    
+    <td>Password:</td>
+    
+    <td><input type="password" name="psd"><br></td> </tr>
+    
+    <tr>
+    <td>Email id:</td>
+    
+    <td><input type="text" name="email"><br></td> </tr>
+    
+    <tr>
+    <td>Phone No:</td>
+    
+    <td><input type="text" name="phno"><br></td> </tr>
+     
+    
+    
+    2
+     
+    SIT - JNTUH	Web Technologies Lab Record
+    
+    <tr>
+    
+    <td valign="top">Gender:</td> <td>
+    
+    <input type="radio" name="gender" value="Male">Male<br> <input type="radio" name="gender" value="Female">Female<br>
+    
+    </td>
+    </tr>
+    
+    <tr>
+    
+    <td>Date of Birth:</td> <td>
+    
+    <select name="date"><option></option> <script type="text/javascript">
+    for(i=1;i<=31;i++)
+    
+    document.write("<option value=i>"+i+"</option>"); </script>
+    
+    </select>
+    
+    <select name="month"><option></option> <script type="text/javascript">
+    
+    for(i=1;i<=12;i++)
+    
+    document.write("<option value=i>"+i+"</option>"); </script>
+    
+    </select>
+    
+    <select name="year"><option></option> <script type="text/javascript">
+    
+    for(i=1970;i<=2011;i++)
+    
+    document.write("<option value=i>"+i+"</option>"); </script>
+    </select>
+    
+    </td>
+    </tr>
+    
+    <tr>
+    
+    <td valign="top">Languages<br>Known:</td> <td><input type="checkbox" name="lang">Telugu<br>
+    
+    <input type="checkbox" name="lang">Hindi<br> <input type="checkbox" name="lang">English<br>
+    
+    </td>
+    </tr>
+    <tr>
+    
+    <td>Address</td>
+    
+    <td><textarea name="address"></textarea><br></td> </tr>
+    
+    <tr>
+    
+    <td><input type="submit" value="Submit"></td> <td><input type="reset" value="Reset"></td> </tr>
+    
+    </table>
+    </center>
+    
+    </form>
+    </body>
+    
+    
