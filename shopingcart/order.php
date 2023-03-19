@@ -31,4 +31,4 @@ mysqli_close($conn);
 <b>Your order Is Conformed </strong></pre> <h2><b>THANK YOU</h2> 
 <a href="logout.php">logout</a>
 </center>
-</body></html>
+</body>
