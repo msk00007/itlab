@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         die("cannot be empty");
     }
     if($row["creditcard"]!==$_POST["t2"]){
-        die("card must numbers not matching");
+        die("card number is not matching");
     }
     header("Location:order.php");
     exit;
