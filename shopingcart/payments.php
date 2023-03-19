@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         die("must match total amount");
     }
     if (empty($_POST["t2"])) {
-        die("cannot be empty");
+        die("card num cannot be empty");
     }
     if($row["creditcard"]!==$_POST["t2"]){
         die("card number is not matching");
