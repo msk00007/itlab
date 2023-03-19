@@ -49,7 +49,7 @@ $stmt->bind_param("ssss", $bookname, $quantity, $user["id"],$price);
 if ($stmt->execute() === TRUE) {
     echo "uploaded to cart successfully.";
 } else {
-    echo "Error uploading PDF file: " . $conn->error;
+    echo "Error uploading to cart " . $conn->error;
 }
 
 // Close statement
