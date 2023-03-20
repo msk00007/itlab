@@ -2,7 +2,7 @@
 database name : login_db
 
 
-table for user details : itlab   // columns : id primarykey auto increment, name, email, phone , dob, oassword, gender, address, creditcard;
+table for user details : itlab   // columns : id primarykey auto increment, name, email, phone , dob, password, gender, address, creditcard;
 
 
 table for booklist : book_catalogue  // columns : BooksandMagazines primarykey, Author, Publication, Price;
